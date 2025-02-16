@@ -1,19 +1,47 @@
-p {
-    margin: 30px;
-    padding: 20px;
+.menu {
+    display: flex;
+    flex-direction: column; /* Розташовуємо елементи вертикально */
+    width: 200px; /* Задаємо ширину меню */
+    background-color: #f0f0f0; /* Задаємо колір фону */
+}
+
+.menu-item {
+    padding: 10px; /* Задаємо внутрішній відступ */
+    background-color: #d3d3d3;
+}
+
+.menu-item-top {
+    padding: 10px; /* Задаємо внутрішній відступ */
+    border-bottom: 1px solid #ccc; /* Додаємо розділювач між елементами */
+    background-color: #008001;
     font-family: "Times New Roman", serif;
-    font-size: 50px;
+    font-size: larger;
 }
-.p-one{
+
+.menu-item a {
+    text-decoration: none; /* Видаляємо підкреслення у посилань */
+    color: #333; /* Задаємо колір тексту */
+}
+
+.menu-item a:hover {
+    color: #007bff; /* Змінюємо колір тексту при наведенні */
+}
+
+.attention {
+    padding: 10px;
+    margin-bottom: 10px;
     background-color: #90ee90;
+    font-family: "Times New Roman", serif;
+    font-size: larger;
 }
-.p-two{
-    background-color: #0000fe;
+
+.attention-success{
+    background-color: #9191fa;
 }
-.p-three{
+.attention-warning{
     background-color: #fed700;
 }
-.p-four{
+.attention-danger{
     background-color: #fe0000;
 }
 
@@ -37,4 +65,68 @@ p {
 .alert-danger {
     border-left-color: red; /* Червоний колір для помилки */
     background-color: #ffc0c8;
+}
+
+.social-icons {
+    display: flex; /* Використовуємо flexbox для горизонтального розташування */
+    justify-content: center; /* Вирівнюємо іконки по центру */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Задаємо відстань між іконками */
+}
+
+.social-icons img {
+    width: 30px; /* Задаємо ширину іконок */
+    height: 30px; /* Задаємо висоту іконок */
+}
+
+ul {
+      list-style: none; /* Видаляємо маркери списку */
+      padding: 0; /* Видаляємо внутрішній відступ списку */
+      background-color: #d3d3d3;
+  }
+
+li {
+    border: 1px solid #ccc; /* Додаємо кордон до кожного пункту */
+    padding: 10px; /* Додаємо внутрішній відступ для пунктів */
+    margin-bottom: 5px; /* Додаємо відстань між пунктами */
+}
+
+.form-example {
+    background-color: #d3d3d3;
+}
+
+.form-example p {
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #e0e0e0; /* Світло-сірий фон контейнера */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для контейнера */
+    text-align: left; /* Центруємо текст всередині контейнера */
+}
+
+.container h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    margin-bottom: 20px;
+}
+
+.translate-button {
+    background-color: #808080; /* Темно-сірий фон кнопки */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.translate-button:hover {
+    background-color: #606060; /* Змінюємо колір при наведенні */
 }
