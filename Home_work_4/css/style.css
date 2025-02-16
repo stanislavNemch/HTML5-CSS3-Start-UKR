@@ -1,0 +1,40 @@
+p {
+    margin: 30px;
+    padding: 20px;
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+}
+.p-one{
+    background-color: #90ee90;
+}
+.p-two{
+    background-color: #0000fe;
+}
+.p-three{
+    background-color: #fed700;
+}
+.p-four{
+    background-color: #fe0000;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #008100; /* Сірий колір для звичайного оповіщення */
+    background-color: #90ee90;
+}
+
+.alert-success {
+    border-left-color: #0000fe; /* Зелений колір для успішного оповіщення */
+    background-color: #01ffff;
+}
+
+.alert-warning {
+    border-left-color: #fed602; /* Жовтий колір для попередження */
+    background-color: #ffff01;
+}
+
+.alert-danger {
+    border-left-color: red; /* Червоний колір для помилки */
+    background-color: #ffc0c8;
+}
